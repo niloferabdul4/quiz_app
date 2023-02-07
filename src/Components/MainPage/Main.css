@@ -1,0 +1,151 @@
+
+
+.quiz_container{
+    width:700px;
+    max-height:400px;
+    margin-left: auto;  
+    margin-right: auto;
+    margin:100px;
+    padding:20px;
+    background-color: white;
+    box-shadow: rgba(53, 48, 48, 0.15) 1.95px 1.95px 2.6px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background: linear-gradient(to right,lavender,green,skyblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text{  
+    font-weight: 400;
+    margin: 10px;
+    font-size: 22px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+.question_wrapper{    
+    height:100px;
+    margin:15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.ans_wrapper{   
+    height:180px;
+    margin:4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: row;  
+   
+}
+
+.btn{   
+    width: 250px;
+    height: 52px;
+    margin: 10px;
+    font-size: 1.02rem;
+    border-radius: 5px;
+    border:1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    transform:scale(1.02);
+    transition:transform 100ms ease-in-out;
+        
+}
+   
+.green_btn{
+
+    width: 250px;
+    height: 52px;
+    margin: 10px;
+    font-size: 1.02rem;
+    border-radius: 5px;
+    border:1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color:white;
+}
+
+.red_btn{
+    width: 250px;
+    height: 52px;
+    margin: 10px;
+    font-size: 1.02rem;
+    border-radius: 5px;
+    border:1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:white;
+}
+
+
+.next_btn,.reset_btn{
+    height:50px;
+    width:150px;
+    padding:6px;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    border-radius: 8px;;
+    font-size: 1.2rem;;
+    color:white;
+    box-shadow: rgba(53, 48, 48, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+.next_btn:hover
+{
+    background: transparent;
+    background-color: rgb(81, 75, 122);
+
+}
+
+
+.message{    
+    height:300px;
+    margin:20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+
+}
+
+
+.score{
+font-size: 24px;
+}

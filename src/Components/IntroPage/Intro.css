@@ -1,0 +1,50 @@
+
+
+
+.intro_container{
+    background-color: aliceblue;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.text{   
+    font-weight: 600;
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+.title{
+
+    width: 318px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #293264;
+    margin:10px;
+    font-size: 20px;;
+}
+
+
+.start_btn {
+    width: 193px;
+    height: 52px;
+    margin:10px;
+    background-color: #293264;
+    color:white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
