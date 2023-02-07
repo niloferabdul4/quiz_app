@@ -3,8 +3,7 @@ import { useContext } from 'react';
 import { AppContext } from '../../App';
 
 
-const Answer = ({correct_answer,answers}) => {
-    
+const Answer = ({correct_answer,answers}) => {    
   const {score,setScore,selected,setSelected}=useContext(AppContext)
 
   const handleCheck=(answerItem)=>
