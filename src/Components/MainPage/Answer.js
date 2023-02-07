@@ -7,15 +7,13 @@ const Answer = ({correct_answer,answers}) => {
     
   const {score,setScore,selected,setSelected}=useContext(AppContext)
 
-
   const handleCheck=(answerItem)=>
   {   
         setSelected(answerItem)      
         if(answerItem===correct_answer)
          {
           setScore(score+1)
-         }
-        
+         }        
   }
 
   /*************  Select Function  **************/
