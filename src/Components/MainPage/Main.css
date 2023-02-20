@@ -43,18 +43,20 @@ h2{
     margin:15px;
     margin-left: auto;
     margin-right: auto;
+    width:100%;
 
 }
 
 
 .ans_wrapper{   
-    height:180px;
+    flex:1;
     margin:4px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     flex-direction: row;  
+    width:100%;
    
 }
 
@@ -148,4 +150,90 @@ h2{
 
 .score{
 font-size: 24px;
+}
+
+@media screen and (max-width:480px) {
+    .quiz_container{
+        width:340px;
+        height: 300px;
+        margin:0px;
+    }
+    
+.text{  
+    font-weight: 400;
+    margin: 10px;
+    font-size:14px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 15px;
+}
+.question_wrapper{    
+    height:60px;   
+    margin:0px;
+    
+}
+
+
+.ans_wrapper{   
+    flex:1;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: row;  
+    margin: 0px;
+}
+
+.btn{   
+    width: 150px;
+    height: 40px;
+    font-size: 0.86rem;
+    
+}
+
+.green_btn{
+
+    width: 150px;
+    height: 40px;
+    font-size: 0.86rem;
+   
+}
+
+.red_btn{
+    width: 150px;
+    height: 40px;
+    font-size: 0.86rem;
+   
+}
+
+
+.next_btn,.reset_btn{
+    width: 100px;
+    height: 30px;
+    padding:6px;
+   font-size: 0.86rem;
+   
+}
+
+.next_btn:hover
+{
+    background: transparent;
+    background-color: rgb(81, 75, 122);
+
+}
+
+
+.message{    
+    height:200px;
+    margin:10px;
+    gap:10px;
+
+}
+
+
+.score{
+font-size: 18px;
+}
 }

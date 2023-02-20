@@ -1,7 +1,6 @@
 
 import Intro from "./Components/IntroPage/Intro";
 import Quiz from "./Components/MainPage/Quiz";
-import './App.css'
 import { useState,useEffect } from "react";
 import { createContext } from "react";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
