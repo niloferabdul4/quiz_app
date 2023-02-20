@@ -8,8 +8,7 @@ import { nanoid } from 'nanoid';
 
 const Quiz = () => {   
     const {quiz,index,score,nextClick,restartGame}=useContext(AppContext)   
-    //const [showAns,setShowAns]=useState(false)
-
+   
     return (
        
         <div className='container' > 
